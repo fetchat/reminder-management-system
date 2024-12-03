@@ -1,0 +1,14 @@
+[2024-12-03T23:39:28.165] [ERROR] file - {
+  location: 'ReminderController -> addReminder',
+  message: 'ValidationError: Reminders validation failed: reminder_id: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "reminder_id"\n' +
+    '    at Document.invalidate (E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\document.js:3318:32)\n' +
+    '    at model.$set (E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\document.js:1474:12)\n' +
+    '    at model.$set (E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\document.js:1128:16)\n' +
+    '    at model.Document (E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\document.js:177:12)\n' +
+    '    at model.Model (E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\model.js:128:12)\n' +
+    '    at new model (E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\model.js:4689:15)\n' +
+    '    at E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\model.js:2682:20\n' +
+    '    at Array.map (<anonymous>)\n' +
+    '    at Function.create (E:\\ReminderManagementSystem\\node_modules\\mongoose\\lib\\model.js:2670:34)\n' +
+    '    at exports.addReminder (E:\\ReminderManagementSystem\\controllers\\reminder.controller.js:18:37)'
+}
